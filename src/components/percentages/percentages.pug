@@ -1,0 +1,33 @@
+
+mixin percentages
+    .Content
+        ul.List
+            li.List-item
+                .ProgressBar.ProgressBar--animateNone(data-progress='0')
+                    svg.ProgressBar-contentCircle(viewbox='0 0 200 200')
+                        // on défini le l'angle et le centre de rotation du cercle
+                        circle.ProgressBar-background(transform='rotate(-90, 100, 100)', cx='100', cy='100', r='95')
+                        circle.ProgressBar-circle(transform='rotate(-90, 100, 100)', cx='100', cy='100', r='95')
+                        span.ProgressBar-percentage.ProgressBar-percentage--count
+            li.List-item
+                .ProgressBar.ProgressBar--animateText(data-progress='38')
+                    svg.ProgressBar-contentCircle
+                        // on défini le l'angle et le centre de rotation du cercle
+                        circle.ProgressBar-background(transform='rotate(-90, 100, 100)', cx='100', cy='100', r='95')
+                        circle.ProgressBar-circle(transform='rotate(-90, 100, 100)', cx='100', cy='100', r='95')
+                        span.ProgressBar-percentage.ProgressBar-percentage--count
+            li.List-item
+                .ProgressBar.ProgressBar--animateCircle(data-progress='62')
+                    svg.ProgressBar-contentCircle
+                        // on défini le l'angle et le centre de rotation du cercle
+                        circle.ProgressBar-background(transform='rotate(-90, 100, 100)', cx='100', cy='100', r='95')
+                        circle.ProgressBar-circle(transform='rotate(-90, 100, 100)', cx='100', cy='100', r='95')
+                        span.ProgressBar-percentage.ProgressBar-percentage--count
+            li.List-item
+                .ProgressBar.ProgressBar--animateAll(data-progress='89')
+                    svg.ProgressBar-contentCircle
+                        // on défini le l'angle et le centre de rotation du cercle
+                        circle.ProgressBar-background(transform='rotate(-90, 100, 100)', cx='100', cy='100', r='95')
+                        circle.ProgressBar-circle(transform='rotate(-90, 100, 100)', cx='100', cy='100', r='95')
+                        span.ProgressBar-percentage.ProgressBar-percentage--count
+

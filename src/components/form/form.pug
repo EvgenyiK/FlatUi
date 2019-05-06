@@ -1,0 +1,6 @@
+form.form(method='post',action='/feedback.php')
+    .form__elements
+        input#name(type='text', name='name', onkeyup='checkParams()', placeholder='Your Name', required='')
+        input#email(type='text', name='mail', onkeyup='checkParams()', placeholder='Your Email', required='')
+        textarea#text(name='message',placeholder='Your Message')
+        button.button.rippler submit

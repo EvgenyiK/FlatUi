@@ -1,0 +1,12 @@
+.form{
+  width: 288px;
+  margin: 0 auto;
+  .form__elements{
+    display: flex;
+    flex-direction: column;
+    #name,#email,#text{margin-bottom: 12px}
+    #name,#email{width: 208px;height: 28px}
+    #text{height: 88px}
+    button{margin-left: 60%}
+  }
+}

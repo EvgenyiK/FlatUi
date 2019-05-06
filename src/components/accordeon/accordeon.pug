@@ -1,0 +1,13 @@
+.dropdown
+    button.dropbtn(onclick='myFunction()') Choose An Option
+    #myDropdown.dropdown-content
+        input#myInput(type='text', placeholder='Search..', onkeyup='filterFunction()')
+        a(href='#about') About
+        a(href='#base') Base
+        a(href='#blog') Blog
+        a(href='#contact') Contact
+        a(href='#custom') Custom
+        a(href='#support') Support
+        a(href='#tools') Tools
+script
+    include accordeon.js
