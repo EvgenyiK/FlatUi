@@ -52,7 +52,7 @@
   "dependencies": {
     "ion-rangeslider": "^2.3.0",
     "jquery": "^3.5.0",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.0",
     "querystringify": ">=2.0.0"
   }
 }
